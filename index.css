@@ -1,0 +1,1589 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600&family=Suez+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #952215;
+}
+nav{
+    padding: 0 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F8BF01;
+    position: sticky;
+   top: 0;
+   z-index: 10000;
+
+}
+nav .burger{
+    display: none;
+}
+nav ul a{
+  text-decoration: none;
+}
+nav .profile{
+    display: flex;
+    align-items: center;
+    cursor: pointer;  
+}
+nav .profile a{
+    text-decoration: none;
+}
+nav .profile img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px 0px 10px 10px; 
+    object-fit: cover;  
+    object-position: 50% 30%;
+}
+nav .profile h1{
+    margin-left: 10px;
+    font-size: 33px;
+    font-family: 'Suez One', serif;
+    color: #952215;
+
+}
+nav .profile h1::after{
+    content: "";
+    display: block;
+    background-color:#952215 ;
+    height: 6px;
+    width: 35%;  
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+nav ul li{
+    color:black;
+    margin-left: 30px;
+    cursor: pointer;
+    border-bottom: 2px solid  #F8BF01;
+   font-size: 24px;
+   font-family: 'Suez One', serif;
+
+}
+nav ul li:hover{
+    border-bottom: 5px solid #952215;
+
+}
+#page-content{
+    padding: 10px;
+    max-width: 1900px;
+    margin : auto;
+    margin-bottom: 100px;
+}
+#page-content header{
+    
+    display: flex;
+    padding: 50px;
+
+
+}
+#page-content header a{
+    font-family: "suez one",serif;
+    text-decoration: none;
+    background-color: #F8BF01;
+    color:#952215;
+    border-radius: 5px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 100px;
+    font-size: 20px;
+  
+}
+#page-content header h1{
+    font-family:'oswald semi-bold 600',sans-serif ;
+    font-size: 4vw;
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 200px;
+}
+#page-content header h2{
+font-size: 3vw;
+margin-bottom: 50px;
+    color:#F8BF01 ;
+    font-family: 'Suez One', serif;
+    margin-right: 50px;
+}
+#page-content header .bonjour{
+ display: flex;
+ flex-direction: column;
+align-items: center;
+    width: 55%;
+    margin-left: 50px;
+}
+#page-content header .know
+{
+   margin-top: 100px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#page-content header .know img{
+    width: 400px;
+    height: 400px;
+}
+#page-content .flecheBas{
+    text-align: center;
+ 
+    
+}
+#page-content .flecheBas img{
+    width: 80px;
+    height: 80px;
+  
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+#contact .flecheBas{
+    margin-bottom: 25px;
+}
+#contact h2{
+    font-family: 'Suez One',serif;
+    color: whitesmoke;
+    width: max-content;
+    font-weight: normal;
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+#contact h2::after{
+    content: "";
+    display: block;
+    background-color: white;
+    height: 6px;
+    width: 60% ; 
+    margin:auto; 
+}
+#contact .flecheBas{
+    margin-top: 50px;
+}
+.contact-me{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+.me{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+   
+}
+.me1{
+    font-size: 30px;
+    font-family: "oswald semi-bold 600",sans-serif;
+    margin-bottom: 10px;
+    color: #F8BF01;
+}
+.me2{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin-bottom: 25px;
+
+}
+.me3{
+    width: 800px;
+    height: 25px;
+    border-radius: 5px;
+}
+.me4{
+    width: 800px;
+    height: 300px;
+    border-radius: 5px;
+}
+.button2{
+    font-size: 25px;
+    font-family: "suez one",serif;
+    border-radius: 5px;
+    color: #952215;
+    background-color: #F8BF01;
+    padding: 1%;
+    cursor: pointer;
+}
+#page-Apropos{
+    
+    padding: 20px;
+    max-width: 1500px;
+    margin : auto;
+    margin-bottom: 100px;
+}
+#page-Apropos .flecheBas{
+    text-align: center;
+}
+#page-Apropos .flecheBas img{
+    width: 30px;
+    height: 30px;
+}
+#page-Apropos h2{
+   
+   
+    font-family: 'Suez One',serif;
+    color: whitesmoke;
+    width: max-content;
+    font-weight: normal;
+    font-size: 60px;
+    margin: auto;
+    margin-top: 50px;    
+}
+
+#page-Apropos h2::after{
+    content: "";
+    display: block;
+    background-color: white;
+    height: 6px;
+    width: 60% ; 
+    margin:auto;   
+}
+#page-Apropos .Apropos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    font-family: "oswald semi-bold 600",sans-serif;
+}
+#page-Apropos .Apropos .presentation h5{
+    color: #F8BF01;
+    margin-top: 50px;
+    margin-bottom: 10px;
+   
+    
+}
+#page-Apropos .Apropos .presentation ul{
+    padding-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#page-Apropos .Apropos .presentation ul li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    
+  
+   
+}
+#page-Apropos .Apropos .presentation ul li img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+#page-Apropos .Apropos .presentation p{
+    background-color:#F8BF01 ;
+    border-radius: 5px;
+    color: black;
+    padding: 4%;
+    width: 70%;
+    
+}
+#page-Apropos .Apropos .presentation ul{
+    color: whitesmoke;
+    list-style-type: none;
+   
+}
+#page-Apropos .Apropos .presentation p,h5,ul{
+    font-size: 25px;
+}
+.presentation{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+
+    
+    
+}
+.presentation .logo{
+    display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+.presentation img{
+    width: 35px;
+    height: 35px;
+ 
+}
+.portrait{
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   margin-bottom: 50px;
+    
+}
+.portrait h5{
+    color: whitesmoke;
+}
+.Apropos{
+    display: flex;
+    
+}
+.Aproposlogobag {
+    width: 300px;
+    height: 300px;
+    flex-shrink: 0;
+    margin-right: 50px;
+}
+#page-Apropos .flecheBas img{
+    width: 80px;
+    height: 80px;
+  
+}
+
+.Apropos .portrait img{
+    margin-top: 100px;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 50% 30%;
+   
+
+}
+#mesCompetences{
+    padding: 50px;
+}
+#mesCompetences .flecheBas img{
+    width: 80px;
+    height: 80px;
+ 
+}
+#mesCompetences .flecheBas{
+    text-align: center;
+    margin-top: 100px;
+}
+#mesCompetences h4{
+    font-size: 40px;
+    color:#F8BF01 ;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#mesCompetences h2{
+    font-family: 'Suez One',serif;
+    color: whitesmoke;
+    width: max-content;
+    font-weight: normal;
+    font-size: 60px;
+    margin: auto;
+    margin-bottom: 50px; 
+    margin-top: 50px; 
+}
+#mesCompetences h2::after{
+    content: "";
+    display: block;
+    background-color: white;
+    height: 6px;
+    width: 60% ; 
+    margin:auto; 
+}
+.savoir-faire{
+
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.savoir-faire ul{
+    margin-top: 50px;
+    width: auto;
+    list-style-type: none;
+}
+.savoir-faire ul li{
+    display: flex;
+   
+    font-size: 80px;
+}
+.Competences{
+    font-size: 35px;
+}
+.cs{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+ margin-bottom: 50px;
+    margin-left: 10px;
+}
+.color{
+    background-color: black;
+    height: 35px;
+    width: 400px;
+}
+.color1{
+    background-color: #F8BF01;
+    height: 35px;
+    width: 95%;
+}
+.color2{
+    background-color: #F8BF01;
+    height: 35px;
+    width: 86%;
+}
+.color3{
+    background-color: #F8BF01;
+    height: 35px;
+    width: 52%;
+}
+.color4{
+    background-color: #F8BF01;
+    height: 35px;
+    width: 88%;
+}
+.color5{
+    background-color: #F8BF01;
+    height: 35px;
+    width: 92%;
+}
+.color6{
+    background-color: #F8BF01;
+    height: 35px;
+    width: 90%;
+}
+
+#mesCompetences img{
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 200px;
+    height: 200px;
+}
+#mesCompetences h4,ul{
+    font-family: "oswald semi-bold 600",sans-serif;
+}
+
+.mesCompetences2{
+    padding: 50px;
+}
+.mesCompetences2 .flecheBas img{
+    width: 80px;
+    height: 80px;
+ 
+}
+.mesCompetences2 .flecheBas{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 25px;
+}
+.mesCompetences2 h4{
+    font-size: 40px;
+    color:#F8BF01 ;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.mesCompetences2 h2{
+    font-family: 'Suez One',serif;
+    color: whitesmoke;
+    width: max-content;
+    font-weight: normal;
+    font-size: 60px;
+    margin: auto;
+    margin-bottom: 50px; 
+    margin-top: 50px; 
+}
+.mesCompetences2 h2::after{
+    content: "";
+    display: block;
+    background-color: white;
+    height: 6px;
+    width: 60% ; 
+    margin:auto; 
+}
+.mesCompetences2 h4,h3,p{
+    font-family: "oswald semi-bold 600",sans-serif;
+}
+.mesCompetences2 .savoir-etre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #952215;
+}
+.savoir-etre .centre{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vw;
+    background-color: #F8BF01;
+width: 250px;
+height: 250px;
+    border-radius: 50%;
+    
+}
+.savoir-etre .centre1{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vw;
+    background-color: #F8BF01;
+width: 250px;
+height: 250px;
+    border-radius: 50%;
+    
+}
+.savoir-etre .centre2{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vw;
+    background-color: #F8BF01;
+width: 250px;
+height: 250px;
+    border-radius: 50%;
+    
+}
+.savoir-etre h3{
+   font-size: 50px;
+   margin-bottom: 25px;
+   margin-top: 25px;
+   color: whitesmoke;
+ 
+}
+.Adaptabilite{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Empathie{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Esprit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+#mesExperiences{
+    max-width: 1500px;
+    margin : auto;
+    margin-bottom: 100px;
+    
+}
+#mesExperiences h2{
+    font-family: 'Suez One',serif;
+    color: whitesmoke;
+    width: max-content;
+    font-weight: normal;
+    font-size: 70px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;    
+}
+#mesExperiences h2::after{
+    content: "";
+    display: block;
+    background-color: white;
+    height: 6px;
+    width: 60% ; 
+    margin:auto; 
+}
+.Experiences1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Experiences1 img{
+    width: 300px;
+    height: 300px;
+  
+}
+.Experiences2{
+   width: 33%; 
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.Experiences{
+    margin-bottom: 50px;
+    margin-right: 30px;
+}
+.Experiences h4{
+    font-size: 20px;
+  position: absolute;
+    display: flex;
+    justify-content: center;
+    font-family: "oswald semi-bold 600",sans-serif;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 10px;
+   
+    color: #952215;
+  
+}
+.Experiences3{
+ 
+    margin-top: 25px;
+    margin-left: 25px;
+    font-family: "oswald semi-bold 600",sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    background-color:#F8BF01 ;
+    border-radius: 5px;
+    padding: 4%;
+    width: 470px;
+    height: 120px;
+}
+.Experiences3 img{
+    width: 25px;
+    height: 25px;
+    margin-left: 80px;
+   
+
+}
+.Experiences4 h6{
+    color:#952215 ;
+    margin-top: 5px;
+    margin-bottom: 10px;
+   
+    font-size: 18px;
+}
+.Experiences4 .Experiences44{
+    display: none;
+}
+#mesExperiences .flecheBas{
+    text-align: center;
+    
+}
+.Experiences5{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+
+}
+.Experiences5 h5{
+    font-size: 25px;
+}
+#Diplomes h2{
+    font-family: 'Suez One',serif;
+    color: whitesmoke;
+    width: max-content;
+    font-weight: normal;
+    font-size: 70px;
+    margin: auto;
+    margin-bottom: 100px; 
+    margin-top: 100px;    
+}
+#Diplomes h2::after{
+    content: "";
+    display: block;
+    background-color: white;
+    height: 6px;
+    width: 60% ; 
+    margin:auto; 
+}
+.Diplomes1{
+   
+    display: flex;
+    justify-content: space-around;
+}
+.Diplomes2{
+    background-color: #F8BF01 ;
+    border-radius: 5px;
+    padding: 2%;
+    font-family: "oswald semi-bold 600",sans-serif;
+   width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Diplomes2 :first-child{
+    color:#F8BF01  ;
+    background-color:#952215 ;
+    border-radius: 5px;
+    padding: 2%;
+}
+.Diplomes2 :nth-child(2){
+    color: #952215;
+}
+.Diplomes2 img{
+    width: 200px;
+    height: 200px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.Diplomes2 h3{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.Diplomes3{
+    background-color: #F8BF01 ;
+    border-radius: 5px;
+    padding: 2%;
+    font-family: "oswald semi-bold 600",sans-serif;
+   width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Diplomes3 :first-child{
+    color: #F8BF01 ;
+    background-color:#952215 ;
+    border-radius: 5px;
+    padding: 2%;
+}
+.Diplomes3 :nth-child(2) {
+    color:#952215;
+}
+.Diplomes3 h3{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.Diplomes3 img{
+ 
+    margin-top: 25px;
+    margin-bottom: 70px;
+ 
+}
+#Diplomes .flecheBas{
+    text-align: center;
+    margin-top: 100px;
+}
+#Realisation h2{
+    font-family: 'Suez One',serif;
+    color: whitesmoke;
+    width: max-content;
+    font-weight: normal;
+    font-size: 70px;
+    margin: auto;
+    margin-bottom: 100px; 
+    margin-top: 100px;       
+}
+#Realisation  h2::after{
+    content: "";
+    display: block;
+    background-color: white;
+    height: 6px;
+    width: 60% ; 
+    margin:auto; 
+}
+#Realisation .flecheBas{
+    text-align: center;
+}
+#centreInteret  h2{
+    font-family: 'Suez One',serif;
+    color: whitesmoke;
+    width: max-content;
+    font-weight: normal;
+    font-size: 70px;
+    margin: auto;
+    margin-bottom: 50px; 
+    margin-top: 100px;       
+}
+#centreInteret h2::after{
+    content: "";
+    display: block;
+    background-color: white;
+    height: 6px;
+    width: 60% ; 
+    margin:auto; 
+}
+#centreInteret .flecheBas{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.Interet{
+   padding: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+.Interet img{
+ 
+    width: 200px;
+    height: 200px;
+}
+.centreInteret2{
+    display: flex;
+    flex-direction: column;
+  
+}
+.Realisations1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.Realisations1 img{
+    width: 300px;
+    height: 300px;
+}
+.Realisations2{
+    display: flex;
+   flex-direction: column;
+   width: 33%;
+   
+
+}
+.Realisations2 img{
+    width: 200px;
+    height: 200px;
+}
+.Realisations3{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 75px;
+}
+footer{
+    font-family: "oswald semi-bold 600",sans-serif;
+    background-color:#F8BF01 ;
+    text-align: center;
+    padding: 2%;
+    font-size: 25px;
+}
+footer h3{
+    font-family: "oswald semi-bold 600",sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.footerknow{
+    font-family: "suez one",serif;
+    margin-left: 5px;
+    margin-right: 5px;
+    color:#952215 ;
+    font-size: 30px;
+}
+@media screen and (max-width:1800px) {
+    body nav .profile h1{
+        font-size: 30px;
+    }
+    body nav .profile img{
+        width: 70px;
+        height: 70px;
+    }
+    body nav ul li{
+        font-size:19px ;
+    }
+    #page-Apropos .Apropos .portrait h5{
+        margin-top: 20px;
+    }
+    #mesExperiences .Experiences1 .Experiences2 .Experiences .Experiences3{
+        width: 420px;
+    }
+    #mesExperiences .Experiences1 .Experiences2 .Experiences .Experiences3 .Experiences4 h6{
+        font-size: 15px;
+    }
+    #page-content header h1{
+        margin-top: 150px;
+    }
+    
+}
+@media screen and (max-width:1480px){
+    body nav ul li{
+        font-size:17px ;
+        margin-left: 20px;
+    }
+    #page-Apropos .Apropos .portrait h5{
+        margin-top: 110px;
+        
+    }
+    #page-Apropos .Apropos .portrait img{
+        width: 400px;
+        height: 400px;
+    
+    }
+    #page-Apropos .Apropos .Aproposlogobag{
+        width: 200px;
+        height: 200px;
+    }
+    #page-Apropos .Apropos .presentation p{
+        font-size: 18px;
+    }
+    #mesExperiences .big-bag{
+        width: 230px;
+        height: 230px;
+    }
+    #mesExperiences .Experiences1 .Experiences2 .Experiences .Experiences3{
+        width: 390px;
+    }
+    #page-content header h1{
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+    #mesCompetences .savoir-faire ul li .cs .color{
+        width: 360px;
+    }
+
+}
+
+@media screen and (max-width:1300px){
+    body nav ul {
+        display: none;
+    }
+    
+    
+    body nav{
+        display: flex;
+        justify-content: center;
+    }
+    #page-content header .know img{
+        width: 300px;
+        height: 300px;
+    }
+  
+    #page-Apropos .Apropos .Aproposlogobag{
+        margin-right: 50px;
+    }
+    #page-Apropos .Apropos .presentation h5{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    #page-Apropos .Apropos .presentation p{
+        margin-bottom: 5px;
+    }
+    #page-Apropos .Apropos .presentation ul li{
+        font-size: 16px;
+    }
+    #page-Apropos .Apropos .presentation ul{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    #mesCompetences .savoir-faire ul li{
+        font-size:60px ;
+    }
+    #mesCompetences .savoir-faire ul li .cs .Competences{
+        font-size: 23px;
+    }
+    #mesCompetences .savoir-faire ul li .cs .color{
+        width: 220px;
+    }
+    .mesCompetences2 .savoir-etre .Adaptabilite h3{
+        font-size: 30px;
+    }
+    .mesCompetences2 .savoir-etre .Esprit h3{
+        font-size: 30px;
+    }
+    .mesCompetences2 .savoir-etre .Empathie h3{
+        font-size: 30px;
+    }
+    #mesExperiences .Experiences1 .Experiences2 .Experiences h4{
+        font-size: 18px;
+    }
+    #mesExperiences .Experiences1 .Experiences2 .Experiences .Experiences3{
+        height: 120px;
+        width: 310px;
+    }
+    #mesExperiences .Experiences1 .Experiences2 .Experiences .Experiences3 .Experiences5 h5{
+        font-size: 18px;
+        margin-right: 20px;
+        margin-left: 10px;
+    }
+    #mesExperiences .Experiences1 .Experiences2 .Experiences .Experiences3 .Experiences4 h6{
+        font-size: 12px;
+    }
+    #mesExperiences .Experiences1 .Experiences2 .Experiences .Experiences3 .Experiences4 p{
+        font-size: 15px;
+    }
+    #mesExperiences .Experiences1 .Experiences2 .Experiences .Experiences3 .Experiences4 .Experiences43{
+        display: none;
+    }
+    #mesExperiences .Experiences1 .Experiences2 .Experiences .Experiences3 .Experiences4 .Experiences44{
+        display: block;
+    }
+    #mesExperiences .Experiences1 .big-bag{
+        height: 220px;
+        width: 220px;
+    }
+    #Diplomes .Diplomes1 .Diplomes2{
+        text-align: center;
+    }
+    #Diplomes .Diplomes1 .Diplomes2 .Alfred{
+        font-size: 28px;
+    }
+    #Diplomes .Diplomes1 .Diplomes2 .Bepc{
+      margin-top: 6px;  
+    }
+    #Diplomes .Diplomes1 .Diplomes3 .Neuilly{
+        margin-top: 33px;
+    }
+   
+    #Realisation .Realisations1 img{
+        width: 160px;
+        height: 160px;
+  
+        
+    }
+    #Realisation .Realisations1 .Realisations3 img{
+        margin-right: 10px;
+        margin-left: 10px;
+        
+
+    }
+    #Realisation .Realisations1 .Realisations3{
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    #page-content header h1{
+        margin-top: 140px;
+        margin-bottom: 0px;
+    }
+
+}
+
+@media screen and (max-width:1000px){
+    #page-content header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #page-content header .bonjour{
+        margin: auto;
+    }
+    #page-content header .know h2{
+        margin: auto;
+        margin-bottom: 20px;
+    }
+   #page-content header .know img{
+       width: 250px;
+       height: 250px;
+   } 
+   #page-Apropos .Apropos .portrait h5{
+  margin-top: 75px;
+   }
+   #page-Apropos .Apropos .portrait img{
+     width: 300px; 
+     height: 300px;
+   }
+   #page-Apropos .Apropos .Aproposlogobag{
+      display: none;
+   }
+   #page-Apropos .Apropos .presentation p{
+      width:300px ; 
+      font-size: 16px;
+   }
+   #page-Apropos .Apropos .presentation ul li{
+       font-size: 17px;
+       margin-top: 5px;
+   }
+   #mesCompetences .savoir-faire img{
+       flex-shrink: 0;
+       width: 150px;
+       height: 150px;
+   }
+   #mesCompetences .savoir-faire ul li{
+       font-size:40px ;
+   }
+   #mesCompetences .savoir-faire ul li .cs .Competences{
+       font-size: 18px;
+   }
+   #mesCompetences .savoir-faire ul li .cs .color{
+       height: 20px;
+       width: 180px;
+      
+   }
+   #mesCompetences .savoir-faire ul li .cs .color div{
+       height:20px ;
+   }
+   .mesCompetences2 .savoir-etre .Adaptabilite h3{
+       font-size: 25px;
+   }
+   .mesCompetences2 .savoir-etre .Adaptabilite .centre1{
+       height: 190px;
+       width: 190px;
+   }
+   .mesCompetences2 .savoir-etre .Esprit h3{
+    font-size: 25px;
+}
+.mesCompetences2 .savoir-etre .Esprit .centre{
+    height: 190px;
+    width: 190px;
+}
+.mesCompetences2 .savoir-etre .Empathie h3{
+    font-size: 25px;
+}
+.mesCompetences2 .savoir-etre .Empathie .centre2{
+    height: 190px;
+    width: 190px;
+}
+#mesExperiences .Experiences1 .big-bag{
+    display: none;
+}
+#mesExperiences .Experiences1 .Experiences2 .Experiences h4{
+    font-size: 15px;
+}
+#Diplomes .Diplomes1 .Diplomes2 :nth-child(3){
+    font-size: 20px;
+}
+#Diplomes .Diplomes1 .Diplomes2 .math{
+    font-size: 20px;
+}
+#Diplomes .Diplomes1 .Diplomes2 .Alfred{
+    margin-bottom: 33px;
+}
+#Diplomes .Diplomes1 .Diplomes3 .Neuilly{
+font-size:20px ;
+}
+#Diplomes .Diplomes1 .Diplomes3 .permis{
+    font-size:25px ;
+    text-align: center;
+}
+#Realisation .Realisations1 .bagi {
+    display: none;
+}
+#Realisation .Realisations1{
+    margin-bottom: 40px;
+} 
+   
+#centreInteret .centreInteret2 .Interet img{
+    width: 150px;
+    height: 150px;
+}
+#contact .contact-me .me2 .me4{
+    width:450px ;
+}
+#contact .contact-me .me .me3{
+    width: 450px;
+}
+#page-content header h1{
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+body nav{
+    display: flex;
+    justify-content: center;
+}
+}
+@media screen and (max-width:800px){
+#centreInteret h2{
+    font-size: 50px;
+}
+#Diplomes .Diplomes1 .Diplomes2 img{
+    width: 150px;
+    height: 150px;
+}
+#Diplomes .Diplomes1 .Diplomes3 img{
+    width: 110px;
+    height: 100px;
+    margin-top: 36px;
+}
+#mesExperiences .Experiences1 .Experiences2 .Experiences .Experiences3{
+    width:280px ;
+    height: 120px;
+}
+#mesExperiences .Experiences1 .Experiences2 .Experiences .Experiences3 .Experiences5 img{
+    margin-left: 30px;
+   
+}
+#mesExperiences .Experiences1 .Experiences2 .Experiences .Experiences3 .Experiences5 h5{
+    margin-left: 5px;
+}
+#mesExperiences .Experiences1 .Experiences2 .Experiences .Experiences3 .Experiences4 p{
+    font-size: 13px;
+}
+#mesExperiences .Experiences1 .Experiences2 .Experiences .Experiences3 .Experiences4 h6{
+    font-size: 10px;
+}
+#Realisation h2{
+    font-size: 50px;
+}
+#Diplomes h2{
+    font-size: 50px;
+}
+#mesExperiences h2{
+    font-size: 50px;
+}
+.mesCompetences2 h2{
+    font-size: 50px;
+}
+.mesCompetences2 .savoir-etre .Adaptabilite .centre1{
+    width: 150px;
+    height: 150px;
+}
+.mesCompetences2 .savoir-etre .Adaptabilite h3{
+    font-size: 20px;
+}
+.mesCompetences2 .savoir-etre .Esprit .centre{
+    width: 150px;
+    height: 150px;
+}
+.mesCompetences2 .savoir-etre .Esprit h3{
+    font-size: 20px;
+}
+.mesCompetences2 .savoir-etre .Empathie .centre2{
+    width: 150px;
+    height: 150px;
+}
+.mesCompetences2 .savoir-etre .Empathie h3{
+    font-size: 20px;
+}
+#mesCompetences h2{
+    font-size: 50px;
+}
+#mesCompetences .savoir-faire img{
+    width: 120px;
+    height: 120px;
+}
+#mesCompetences .savoir-faire ul li .cs .color{
+    width: 150px;
+}
+#mesCompetences .savoir-faire ul li .cs .Competences{
+    font-size: 16px;
+}
+#page-Apropos h2{
+    font-size: 50px;
+}
+#page-content header h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+body nav{
+    display: flex;
+    justify-content: center;
+}
+}
+
+@media screen and (max-width:700px){
+    nav ul{
+    display: none;
+    }
+    
+    body nav{
+        display: flex;
+        justify-content: center;
+    }
+    body nav .profile{
+        align-items: center;
+        justify-content: center;
+    }
+    body nav .profile h1{
+        font-size: 30px;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    #page-content header .bonjour{
+        width: 70%;
+     
+    }
+    #page-content header .bonjour h1{
+        font-size:40px ;
+    }
+    
+    
+    #page-content header .know{
+        width: 100%;
+        
+    }
+    #page-content header .know h2{
+        font-size: 30px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+       
+    }
+    #page-content header .know img{
+        width: 200px;
+        height: 200px;
+    }
+
+    #page-content header h1{
+        font-size: 30px;   
+    }
+    #page-content .flecheBas{
+        margin-top: 35px;
+        
+
+    }
+    
+    #page-Apropos h2{
+        font-size: 40px;
+        margin-left: 50px;
+        margin-top: 0px;
+    }
+    #page-Apropos .Apropos{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    #page-Apropos .Apropos .presentation{
+        margin-bottom: 50px;
+        width: 100%;
+       
+       
+    }
+    #page-Apropos .Apropos .presentation h5{
+        font-size: 20px;
+    }
+    #page-Apropos .Apropos .presentation p{
+        font-size: 20px;
+        width: 90%;
+        
+    }
+    #page-Apropos .Apropos .presentation ul li{
+        width: 100%;
+        font-size: 20px;
+
+    }
+    #page-Apropos .Apropos .presentation ul li img{
+        margin-right: 10px;
+    }
+    #page-Apropos .Apropos .Aproposlogobag{
+        width: 300px;
+        height: 300px;
+        margin-right: 35px;
+        margin-top: 45px;
+    }
+    #page-Apropos .Apropos .portrait{
+        width: 100%;
+    }
+    #page-Apropos .Apropos .portrait h5{
+        margin-bottom: 10px;
+        margin-top: 70px;
+    }
+    #page-Apropos .Apropos .portrait img{
+        width: 350px;
+        height: 350px;
+        margin-bottom: 50px;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+    #page-Apropos .flecheBas{
+       margin: auto;
+       margin-top: 30px;
+      
+    }
+    #mesCompetences{
+        padding: 10px;
+    }
+    #mesCompetences h2{
+        font-size: 40px;
+    }
+    #mesCompetences .savoir-faire{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    
+    #mesCompetences .savoir-faire ul{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    #mesCompetences .savoir-faire ul li{
+        font-size: 70px;
+    }
+    #mesCompetences .savoir-faire ul li .cs .Competences{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    #mesCompetences .savoir-faire ul li .cs .color{
+        width: 220px;
+        
+    }
+    .mesCompetences2 .flecheBas{
+        margin: auto;
+        margin-top: 50px;
+    }
+    .mesCompetences2 h2{
+        font-size: 40px;
+    }
+    .mesCompetences2 .savoir-etre{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mesCompetences2 .savoir-etre h3{
+        font-size: 30px;
+    }
+    .mesCompetences2 .savoir-etre p{
+        font-size: 50px;
+    }
+    #mesExperiences h2{
+        font-size: 40px;
+    }
+    #mesExperiences .Experiences1{
+        display: flex;
+        flex-direction: column;
+    }
+    #mesExperiences .Experiences1 .big-bag{
+       margin-bottom: 50px; 
+    }
+    #mesExperiences .Experiences1 .Experiences2 .Experiences h4{
+        font-size: 20px;
+        padding: 10px;
+
+    }
+    #mesExperiences .Experiences1 .Experiences2 .Experiences .Experiences3{
+     width: 300px; 
+     height: 200px;
+    }
+    #mesExperiences .Experiences1 .Experiences2 .Experiences .Experiences3 .Experiences5 img{
+       margin-left: 70px;
+    }
+    #mesExperiences .Experiences1 .Experiences2 .Experiences .Experiences3 .Experiences5 h5{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    #mesExperiences .Experiences1 .Experiences2 .Experiences .Experiences3 .Experiences5{
+        margin-bottom: 8px;
+        margin-top: 10px;
+    }
+   
+    #mesExperiences .Experiences1 .Experiences2 .Experiences .Experiences3 .Experiences4 h6{
+        font-size: 11px;
+    }
+    
+    #mesExperiences .Experiences1 .Experiences2 .Experiences .Experiences3 .Experiences4 p{
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    #mesExperiences .Experiences1 .Experiences2 .Experiences .Experiences3 .Experiences4 .Experiences44{
+        display:block ;
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    #mesExperiences .Experiences1 .Experiences2 .Experiences .Experiences3 .Experiences4 .Experiences43{
+        display: none;
+    }
+    #mesExperiences .Experiences1 .Experiences2 .Experiences .Experiences3{
+      height: 160px;  
+    }
+    #Diplomes h2{
+        font-size: 40px;
+    }
+    #Diplomes .Diplomes1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+    }
+    #Diplomes .Diplomes1 .flecheBas{
+        margin-top: 5px;
+    }
+    #Diplomes .Diplomes1 .Diplomes2,.Diplomes3{
+        width: 360px;
+        text-align: center;
+        margin-bottom: 25px;
+        margin-top: 15px;
+        
+    }
+    #Realisation h2{
+        font-size: 40px;
+    }
+    #Realisation .Realisations1{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    #Realisation .Realisations1 .Realisations2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #Realisation .Realisations1 img{
+margin-bottom: 120px;
+width: 120px;
+height: 120px;
+    }
+    #Realisation .Realisations1 .Realisations2 .Realisations3{
+        display: flex;
+       
+    }
+    #Realisation .Realisations1 .Realisations2 .Realisations3 img{
+        margin-bottom:50px;
+    }
+    #centreInteret h2{
+        font-size: 40px;
+    }
+    #centreInteret .centreInteret2 .Interet{
+        display: flex;
+       flex-wrap: wrap;
+        align-items: center;
+       
+    }
+    #centreInteret .centreInteret2 .Interet img{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    #contact h2{
+        font-size: 40px;
+    }
+    #contact .contact-me .me2 .me4{
+        width: 380px;
+    }
+    #contact .contact-me .me .me3{
+        width:380px ;
+    }
+    footer h3,h4{
+     font-size: 15px;   
+    }
+    footer .footerknow{
+        font-size: 20px;
+
+    }
+
+    
+
+    
+}
+@media screen and (max-width:450px){
+footer h3,h4{
+    font-size: 12px;
+}
+footer .footerknow{
+    font-size: 15px;
+}
+#contact .contact-me .me .me3{
+    width: 230px;
+}
+#contact .contact-me .me2 .me4{
+    width: 230px;
+}
+#contact .contact-me .me1{
+    font-size: 20px;
+}
+#contact h2{
+    font-size: 30px;
+}
+#centreInteret h2{
+    font-size: 27px;
+}
+#Realisation h2{
+    font-size: 30px;
+}
+#Diplomes h2{
+    font-size: 30px;
+}
+#Diplomes .Diplomes1 .Diplomes2{
+    width:230px ;
+}
+#Diplomes .Diplomes1 .Diplomes2 :nth-child(2){
+    font-size: 17px;
+}
+#Diplomes .Diplomes1 .Diplomes2 :first-child{
+    font-size: 20px;
+}
+#Diplomes .Diplomes1 .Diplomes3{
+    width: 230px;
+}
+#Diplomes .Diplomes1 .Diplomes3 :nth-child(2){
+    font-size: 17px;
+}
+#Diplomes .Diplomes1 .Diplomes3 :first-child{
+    font-size: 20px;
+}
+
+}
