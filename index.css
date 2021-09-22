@@ -1313,7 +1313,7 @@ body nav{
     }
     #page-Apropos .Apropos{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
        
     }
     #page-Apropos .Apropos .presentation{
