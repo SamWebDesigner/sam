@@ -72,7 +72,8 @@
         <div class="Apropos">
             <div class="presentation">
                 <h5>Designer UI,UX</h5>
-                <p>La réussite passe par certaines de mes qualités :
+              
+                <p id=parleMoi>La réussite passe par certaines de mes qualités :
                     <br>
                     <br>
                     L'Organisation, je rend mon travail plus facile et rapide, j'apporterais un gain de temps et
@@ -421,7 +422,7 @@
                 <textarea class="me4" id="msg" name="user_message"></textarea>
             </div>
             <div class="button">
-                <button class="button2" type="submit">Envoyer le message</button>
+                <button class="button2" type="submit" src="samwebdesigner@free.fr">Envoyer le message</button>
             </div>
         </form>
         <div class="flecheBas">
@@ -441,9 +442,9 @@
         let nav = document.querySelector("nav ul")
         let sambo = document.querySelector("#page-Apropos .Apropos .presentation p")
         burger.addEventListener("click",function (e) {
-        
             nav.classList.toggle("active") 
         })
+
         sambo.addEventListener("click", function(e){
             sambo.classList.toggle("sam")
         })
