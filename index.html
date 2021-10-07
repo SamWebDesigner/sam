@@ -22,7 +22,7 @@
                 <h1>BORDJAH Samir</h1>
             </a>
         </div>
-
+        <img class="burger" src="/burger.png" alt="icone-burger">
         <ul>
             <a href="#page-content">
                 <li>Accueil</li>
@@ -54,7 +54,7 @@
         <header>
             <div class="bonjour">
                 <h1>Bonjour ! <br> Je suis Web Designer</h1>
-                <a href="">TELECHARGER</a>
+                <a href="CV.pdf">TELECHARGER</a>
             </div>
             <div class="know">
                 <h2>KNOW-HOW</h2>
@@ -96,7 +96,7 @@
                     machine ! Je peux faire des erreurs. Je sais collaborer efficacement avec les autres pour améliorer
                     mes projets.
                     <br>  <br>
-                    Autonome et Perseverant, je me pousse à aller plus loin, à explorer de nouvelles
+                    Autonome et Persévérant, je me pousse à aller plus loin, à explorer de nouvelles
                     idées, de nouvelles techniques et à trouver des solutions inédites aux problèmes. Il faut une
                     bonne dose d’indépendance d’esprit, d’audace, mais aussi de passion et d'imagination pour ne jamais
                     renoncer à ses rêves et leur donner vie dans le monde d’aujourd'hui.
@@ -323,13 +323,6 @@
         <h2>Mes Diplômes</h2>
         <div class="Diplomes1">
             <div class="Diplomes2">
-                <h3>1993-1994</h3>
-                <h3>Brevet des colléges Pablo Neruda </h3>
-                <h3> Aulnay-sous-bois</h3>
-                <img src="diplomeRouge.png" alt="icone-Diplome">
-                <h3 class="Bepc">BEPC</h3>
-            </div>
-            <div class="Diplomes2">
                 <h3>1998-1999</h3>
                 <h3 class="Alfred">BAC S Lycée Alfred Nobel </h3>
                 <h3>Clichy-sous-bois</h3>
@@ -337,6 +330,14 @@
                 <h3 class="math"> Bac Scientifique Mathématique </h3>
             </div>
 
+            <div class="Diplomes2">
+                <h3>1993-1994</h3>
+                <h3>Brevet des colléges Pablo Neruda </h3>
+                <h3> Aulnay-sous-bois</h3>
+                <img src="diplomeRouge.png" alt="icone-Diplome">
+                <h3 class="Bepc">BEPC</h3>
+            </div>
+           
             <div class="Diplomes3">
                 <h3>2005-2006</h3>
                 <h3 class="permis">Permis de conduire</h3>
@@ -435,6 +436,16 @@
 
 
 
+    <script>
+        let burger = document.querySelector(".burger")
+        let nav = document.querySelector("nav ul")
+        let sambo = document.querySelector("#page-Apropos .Apropos .presentation p")
+        burger.addEventListener("click",function (e) {
+        
+            nav.classList.toggle("active") 
+        })
+
+    </script>
 </body>
 
 </html>
