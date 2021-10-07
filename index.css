@@ -12,7 +12,7 @@ body {
     background-color: #952215;
 }
 nav{
-    padding: 0 2%;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,6 +24,7 @@ nav{
 }
 nav .burger{
     display: none;
+    z-index: 10000;
 }
 nav ul a{
   text-decoration: none;
@@ -70,6 +71,9 @@ nav ul li{
    font-size: 24px;
    font-family: 'Suez One', serif;
 
+}
+nav ul :last-child{
+    margin-right: 10px;
 }
 nav ul li:hover{
     border-bottom: 5px solid #952215;
@@ -291,6 +295,12 @@ align-items: center;
     width: 70%;
     
 }
+#page-Apropos .Apropos .presentation p.sam{
+    background-color:#F8BF01 ;
+    border-radius: 5px;
+    color: black;
+    width: 100%; 
+}
 #page-Apropos .Apropos .presentation ul{
     color: whitesmoke;
     list-style-type: none;
@@ -300,7 +310,7 @@ align-items: center;
     font-size: 25px;
 }
 .presentation{
-    width: 80%;
+    
     display: flex;
     flex-direction: column;
 
@@ -723,6 +733,7 @@ height: 250px;
 .Diplomes2 h3{
     margin-bottom: 10px;
     font-size: 25px;
+    text-align: center;
 }
 .Diplomes3{
     background-color: #F8BF01 ;
@@ -889,7 +900,7 @@ footer h3{
 }
 @media screen and (max-width:1480px){
     body nav ul li{
-        font-size:17px ;
+        font-size:16px ;
         margin-left: 20px;
     }
     #page-Apropos .Apropos .portrait h5{
@@ -925,15 +936,37 @@ footer h3{
 
 }
 
-@media screen and (max-width:1300px){
+@media screen and (max-width:1330px){
     body nav ul {
         display: none;
     }
-    
+
+    body nav ul.active {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top : 0;
+        height: 100vh;
+        background-color: #F8BF01;
+        width: 100%;
+    }
+
+    body nav ul.active li {
+        margin : 10px 0;
+        font-size: 1.3em;
+    }
+
+    nav .burger{
+        display: block;
+        cursor: pointer;
+    }
+ 
     
     body nav{
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
     }
     #page-content header .know img{
         width: 300px;
@@ -1160,7 +1193,7 @@ font-size:20px ;
 }
 body nav{
     display: flex;
-    justify-content: center;
+    justify-content:space-between;
 }
 }
 @media screen and (max-width:800px){
@@ -1248,7 +1281,7 @@ body nav{
 }
 body nav{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 }
 
@@ -1259,14 +1292,14 @@ body nav{
     
     body nav{
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
     }
     body nav .profile{
         align-items: center;
         justify-content: center;
     }
     body nav .profile h1{
-        font-size: 30px;
+        font-size: 25px;
     }
     header{
         display: flex;
