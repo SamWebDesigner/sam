@@ -114,7 +114,8 @@ nav ul li:hover{
 #page-content header h2{
 font-size: 3vw;
 margin-bottom: 50px;
-    color:#F8BF01 ;
+    color:#952215 ;
+    
     font-family: 'Suez One', serif;
     margin-right: 50px;
 }
@@ -263,7 +264,7 @@ align-items: center;
     font-family: "oswald semi-bold 600",sans-serif;
 }
 #page-Apropos .Apropos .presentation h5{
-    color: #F8BF01;
+    color: #952215;
     margin-top: 50px;
     margin-bottom: 10px;
    
@@ -279,7 +280,7 @@ align-items: center;
     display: flex;
     align-items: center;
     margin-bottom: 5px;
-    
+  
   
    
 }
@@ -292,12 +293,25 @@ align-items: center;
     display: none;
     margin-top: 30px;
     margin-bottom: 30px;
-   
-  
-  
-    
-   
 }
+#parleMoiPlus strong{
+background-color: #952215;
+margin: auto;
+border-radius: 10px;
+color: whitesmoke;
+padding: 5px;
+margin-bottom: 10px;
+}
+#parleMoi strong{
+    background-color: #952215;
+    margin: auto;
+    border-radius: 20px;
+    color: whitesmoke;
+    padding: 5px;
+    margin-top: 10px;
+    
+    }
+
 #page-Apropos .Apropos .presentation p{
     background-color:#F8BF01 ;
     border-radius: 5px;
@@ -305,6 +319,7 @@ align-items: center;
     padding: 4%;
     width: 70%;
     cursor: pointer;
+    
     
 }
 
@@ -386,7 +401,7 @@ align-items: center;
 }
 #mesCompetences h4{
     font-size: 40px;
-    color:#F8BF01 ;
+    color:#952215 ;
     text-align: center;
     margin-bottom: 30px;
 }
@@ -497,7 +512,7 @@ align-items: center;
 }
 .mesCompetences2 h4{
     font-size: 40px;
-    color:#F8BF01 ;
+    color:#952215 ;
     text-align: center;
     margin-bottom: 30px;
 }

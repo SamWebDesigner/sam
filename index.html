@@ -54,7 +54,7 @@
         <header>
             <div class="bonjour">
                 <h1>Bonjour ! <br> Je suis Web Designer</h1>
-                <a href="CV.pdf">TELECHARGER</a>
+                <a href="./cvPapier.pdf">TELECHARGER</a>
             </div>
             <div class="know">
                 <h2>KNOW-HOW</h2>
@@ -77,13 +77,14 @@
                     Je suis donc capable d'utiliser tous les logiciels spécialisés mis à ma disposition. <br>
                     Mes expériences passées m'ont également permis d'acquérir de solides connaissances en marketing et
                     en gestion, des atouts considérables dans le cadre de mon activité et de la gestion de la relation
-                    clients. <br>
-                    Vous voulez en savoir plus cliquer ici!
+                    clients. <br> <br>
+               
+                   <strong>Vous voulez en savoir plus cliquer ici !</strong> 
                 </p>
                 <p id=parleMoiPlus>
-                    La réussite passe par certaines de mes qualités :
+                    <strong>La réussite passe par certaines de mes qualités :</strong>
                     <br>
-                   
+                   <br>
                     L'Organisation, je rend mon travail plus facile et rapide, j'apporterais un gain de temps et
                     d’argent à votre entreprise.
                     <br> <br>
@@ -211,7 +212,7 @@
                 </div>
             </div>
             <div class="Empathie">
-                <h3>Empathie</h3>
+                <h3>Créativité</h3>
                 <div class="centre2">
                     <p>90%</p>
                 </div>
@@ -469,6 +470,7 @@
 
         sambo.addEventListener("click", function (e) {
          bosam.style.display = "flex"
+         bosam.style.flexDirection = "column"
          sambo.style.display = "none"
          PresentationDiv.style.display = "flex"
          PresentationDiv.style.justifyContent = "center"
@@ -481,6 +483,7 @@
         })
         bosam.addEventListener("click", function (e) {
         sambo.style.display = "flex"
+        sambo.style.flexDirection = "column"
          bosam.style.display = "none"
          portraitPhoto.style.display = "flex"
          logobagPortrait.style.display = "flex"
