@@ -114,7 +114,7 @@ nav ul li:hover{
 #page-content header h2{
 font-size: 3vw;
 margin-bottom: 50px;
-    color:#952215 ;
+    color:#F8BF01 ;
     
     font-family: 'Suez One', serif;
     margin-right: 50px;
@@ -291,26 +291,34 @@ align-items: center;
 }
 #parleMoiPlus{
     display: none;
-    margin-top: 30px;
-    margin-bottom: 30px;  
+    margin-top: 10px;
+    margin-bottom: 10px;  
 }
 #parleMoiPlus strong{
-   margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin:auto;
     border-bottom: solid 5px #2F5697;
+    text-align: center;
   
+}
+#parleMoiPlus b{
+    margin-top: 10px;
 }
 #parleMoi strong{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     background-color: #952215;
     margin: auto;
     border-radius: 20px;
     color: whitesmoke;
-    padding: 5px;
+    padding: 10px;
     margin-top: 15px;
     font-size: 22px;
     align-items: center;
+    text-align: center;
 }
 
 #page-Apropos .Apropos .presentation p{
@@ -402,7 +410,7 @@ align-items: center;
 }
 #mesCompetences h4{
     font-size: 40px;
-    color:#952215 ;
+    color:#F8BF01 ;
     text-align: center;
     margin-bottom: 30px;
 }
@@ -453,7 +461,7 @@ align-items: center;
     margin-left: 10px;
 }
 .color{
-    background-color: black;
+    background-color: #952215;
     height: 35px;
     width: 400px;
 }
@@ -513,7 +521,7 @@ align-items: center;
 }
 .mesCompetences2 h4{
     font-size: 40px;
-    color:#952215 ;
+    color:#F8BF01 ;
     text-align: center;
     margin-bottom: 30px;
 }
@@ -1298,7 +1306,9 @@ body nav{
 }
 #page-Apropos h2{
     font-size: 50px;
+   
 }
+
 #page-content header h1{
     margin-top: 0px;
     margin-bottom: 0px;
@@ -1364,12 +1374,15 @@ body nav{
     }
     
     #page-Apropos h2{
+        
         font-size: 40px;
-        margin-left: 50px;
+  
         margin-top: 0px;
+        
     }
     #page-Apropos .Apropos{
         display: flex;
+       
         flex-direction: column-reverse;
        
     }
@@ -1591,6 +1604,7 @@ height: 120px;
         font-size: 20px;
 
     }
+  
 
     
 
