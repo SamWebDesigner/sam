@@ -559,6 +559,13 @@ align-items: center;
 .mesCompetences2 h4,h3,p{
     font-family: "oswald semi-bold 600",sans-serif;
 }
+.clignote {
+    color:#952215;
+    animation: clignote 2s linear infinite;
+  }
+  @keyframes clignote {  
+    50% { opacity: 0; }
+  }
 .mesCompetences2 .savoir-etre{
     display: flex;
     justify-content: center;
