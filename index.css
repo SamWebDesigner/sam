@@ -884,7 +884,7 @@ height: 250px;
 }
 .Realisations1{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 
 }
@@ -895,7 +895,7 @@ height: 250px;
 .Realisations2{
     display: flex;
    flex-direction: column;
-   width: 50%;
+   width: 100%;
    
 
 }
@@ -906,11 +906,15 @@ height: 250px;
 }
 .Realisations3{
     display: flex;
-    justify-content: space-around;
-    margin-bottom: 75px;
+    flex-direction: column;
+    align-items: center;
+    
+    margin: auto;
     
 }
 .Realisations3 img{
+   display: flex;
+   justify-content: center;
     cursor: pointer;
     border: solid 2px ;
     border-radius: 5px;
@@ -920,8 +924,9 @@ height: 250px;
    
 }
 .Realisations3 img:hover{
-   width: 100%;
-   height: 100%;
+   width: 80%;
+   height: 80%;
+   margin: auto;
     
 }
 footer{
@@ -1617,6 +1622,7 @@ height: 120px;
     }
     #Realisation .Realisations1 .Realisations2 .Realisations3{
         display: flex;
+       
        
     }
     #Realisation .Realisations1 .Realisations2 .Realisations3 img{
