@@ -449,14 +449,16 @@ align-items: center;
 
     color: whitesmoke;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
    
 }
 .savoir-faire ul{
+   
     margin-top: 50px;
     width: auto;
     list-style-type: none;
+    
 }
 .savoir-faire ul li{
     display: flex;
