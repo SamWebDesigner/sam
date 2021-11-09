@@ -1399,6 +1399,9 @@ body nav{
         align-items: center;
        
     }
+    #mesCompetences h2{
+        text-align: center;
+    }
     #page-content header .know img{
         width: 200px;
         height: 200px;
@@ -1416,6 +1419,7 @@ body nav{
     #page-Apropos h2{
         
         font-size: 40px;
+        text-align: center;
   
         margin-top: 0px;
         
@@ -1478,6 +1482,7 @@ body nav{
     }
     #mesCompetences h2{
         font-size: 40px;
+        text-align: center;
     }
     #mesCompetences .savoir-faire{
         display: flex;
@@ -1510,6 +1515,7 @@ body nav{
     }
     .mesCompetences2 h2{
         font-size: 40px;
+        text-align: center;
     }
     .mesCompetences2 .savoir-etre{
         display: flex;
@@ -1592,6 +1598,7 @@ body nav{
     }
     #Realisation h2{
         font-size: 40px;
+        text-align: center;
     }
     #Realisation .Realisations1{
         display: flex;
