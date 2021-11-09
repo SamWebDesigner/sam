@@ -107,8 +107,8 @@ nav ul li:hover{
   
 }
 #page-content header a:hover{
-    color: green;
-    background-color: #f8be01ee;
+    color: #2F5697;
+    background-color: #F8BF01;
 }
 #page-content header h1{
     font-family:'oswald semi-bold 600',sans-serif ;
@@ -213,13 +213,13 @@ align-items: center;
 
 }
 .me3{
-    width: 800px;
+    width: 500px;
     height: 25px;
     border-radius: 5px;
 }
 .me4{
-    width: 800px;
-    height: 300px;
+    width: 500px;
+    height: 200px;
     border-radius: 5px;
 }
 .button2{
@@ -233,8 +233,8 @@ align-items: center;
     
 }
 .button2:hover{
-    background-color:#f8be01ee;
-    color:green ;
+    background-color:#F8BF01;
+    color:#2F5697 ;
 }
 #page-Apropos{
     
@@ -906,6 +906,16 @@ height: 250px;
     display: flex;
     justify-content: space-around;
     margin-bottom: 75px;
+}
+.Realisations3 img{
+   cursor: pointer;
+
+   
+}
+.Realisations3 img:hover{
+   width: 100%;
+   height: 100%;
+    
 }
 footer{
     font-family: "oswald semi-bold 600",sans-serif;
